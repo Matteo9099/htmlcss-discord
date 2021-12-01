@@ -140,13 +140,16 @@ header nav a{
 
 /* section 2 */
 
+#jumbo-one{
+    height: 600px;
+}
+
 #jumbo-one .container.centrali img{
     width: 60%;
     background-position: center;
     background-size: cover;
     float: left;
 }
-
 #jumbo-one h2{
     padding-top: 40px;
     font-size: 50px;
@@ -155,8 +158,33 @@ header nav a{
 
 #jumbo-one p{
     margin-top: 20px;
+    font-size: 20px;
 }
-
-
 /* section 2 */
 
+/* section 3 */
+#jumbo-two {
+    height: 600px;
+    background-color: #f0f0f0;
+}
+
+#jumbo-two .container img{
+    width: 60%;
+    float: right;
+    background-position: center;
+    background-size: cover;
+}
+
+#jumbo-two h2{
+    padding-top: 40px;
+    font-size: 50px;
+    margin-right: 20px;
+}
+
+#jumbo-two p{
+    margin-top: 20px;
+    font-size: 20px;
+    max-width: 40%;
+}
+
+/* section 3 */
