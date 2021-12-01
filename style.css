@@ -94,6 +94,11 @@ header nav a{
     background-color: #222;
     color: #fff;
 }
+
+.bottom.bottom-big.blue{
+    background-color: #4b97ff;
+    color: #fff;
+}
 /* bottom */
 
 #login{
@@ -191,7 +196,7 @@ header nav a{
 
 /* section 4 */
 #jumbo-four {
-    height: 800px;
+    height: 1000px;
 }
 
 #jumbo-four{
@@ -219,4 +224,16 @@ header nav a{
     margin:0px auto;
     text-align:center;
 }
+
+#jumbo-four h3{
+    text-align: center;
+    font-size: 25px;
+}
+
+#jumbo-four #download{
+    margin-top: 40px ;
+    text-align: center;
+
+}
+
 /* section 4 */
