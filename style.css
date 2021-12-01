@@ -6,6 +6,9 @@
 
 .debug{
     height: 500px;
+}
+
+.debug .container{
     border: 2px solid #000;
 }
 
@@ -27,6 +30,15 @@
     padding: 8px 16px;
     border-radius: 10px;
     background-color: #fff;
+}
+
+.bottom.bottom-big{
+    padding: 16px 32px;
+}
+
+.bottom.bottom-black{
+    background-color: #222;
+    color: #fff;
 }
 
 header{
@@ -78,4 +90,9 @@ header nav a{
     min-height: 600px;
     background-size: cover;
     background-position: center;
+}
+
+#jumbotron .container{
+    max-width: 750px;
+    text-align: center;
 }
