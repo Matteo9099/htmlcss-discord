@@ -4,6 +4,11 @@
     box-sizing: border-box;
 }
 
+html{
+    font-family:Helvetica, sans-serif
+}
+
+/* debug */
 .debug{
     height: 500px;
 }
@@ -11,6 +16,8 @@
 .debug .container{
     border: 2px solid #000;
 }
+/* debug */
+
 
 .container{
     width: 80%;
@@ -18,38 +25,20 @@
     height: 100%;
 }
 
-.row::after{
-    content: "";
-    display: table;
-    clear: both;
-}
-
-.bottom{
-    text-decoration: none;
-    display: inline-block;
-    color: #000;
-    padding: 8px 16px;
-    border-radius: 10px;
-    background-color: #fff;
-}
-
-.bottom.bottom-big{
-    padding: 16px 32px;
-}
-
-.bottom.bottom-black{
-    background-color: #222;
-    color: #fff;
-}
-
 header{
-    background-color: #2547D8;
+    background-color: #3056f7;
     height: 100px;
     line-height: 100 px;
 }
 
 header .row{
     line-height: 100px;
+}
+
+.row::after{
+    content: "";
+    display: table;
+    clear: both;
 }
 
 .row #logo{
@@ -61,6 +50,7 @@ header .row{
     vertical-align: middle  ;
 }
 
+/* nav */
 header nav{
     float: left;
     width: 70%;
@@ -79,6 +69,28 @@ header nav a{
     text-decoration: none;
     margin: 0 20px;
 }
+/* nav */
+
+
+/* bottom */
+.bottom{
+    text-decoration: none;
+    display: inline-block;
+    color: #000;
+    padding: 8px 16px;
+    border-radius: 40px;
+    background-color: #fff;
+}
+
+.bottom.bottom-big{
+    padding: 16px 32px;
+}
+
+.bottom.bottom-black{
+    background-color: #222;
+    color: #fff;
+}
+/* bottom */
 
 #login{
     float: right;
@@ -90,6 +102,7 @@ header nav a{
     display: inline;
 }
 
+/* section */
 #jumbotron{
     background-image: url('img/jumbo.png');
     min-height: 600px;
@@ -119,3 +132,18 @@ header nav a{
     margin-right: 10px;
     color: #000;
 }
+/* section */
+
+/* section 2 */
+#jumbo-one .image{
+    width: 60%;
+    background-image: url('img/item1.svg');
+    background-position: center;
+    background-size: cover;
+    height: 100%;
+    border: 2px solid red;
+}
+
+
+/* section 2 */
+
