@@ -139,9 +139,8 @@ header nav a{
 /* section */
 
 /* section 2 */
-
-#jumbo-one{
-    height: 600px;
+#jumbo-one {
+    height: 800px;
 }
 
 #jumbo-one .container.centrali img{
@@ -164,7 +163,9 @@ header nav a{
 
 /* section 3 */
 #jumbo-two {
-    height: 600px;
+    height: 800px;
+}
+#jumbo-two {
     background-color: #f0f0f0;
 }
 
@@ -186,5 +187,36 @@ header nav a{
     font-size: 20px;
     max-width: 40%;
 }
-
 /* section 3 */
+
+/* section 4 */
+#jumbo-four {
+    height: 800px;
+}
+
+#jumbo-four{
+    background-color: #f0f0f0;
+}
+
+#jumbo-four .title-text{
+    margin: auto;
+    width: 90%;
+    text-align: center;
+}
+
+#jumbo-four h2{
+    padding-top: 40px;
+    font-size: 50px;
+}
+
+#jumbo-four p{
+    margin-top: 20px;
+    font-size: 20px;
+}
+
+#jumbo-four .container img{
+    display: block;
+    margin:0px auto;
+    text-align:center;
+}
+/* section 4 */
