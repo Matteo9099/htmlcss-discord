@@ -5,7 +5,7 @@
 }
 
 html{
-    font-family:Helvetica, sans-serif
+    font-family: Helvetica, sans-serif;
 }
 
 /* debug */
@@ -23,6 +23,10 @@ html{
     width: 80%;
     margin: 0 auto;
     height: 100%;
+}
+
+.centrali{
+    margin-top: 100px;
 }
 
 header{
@@ -135,13 +139,22 @@ header nav a{
 /* section */
 
 /* section 2 */
-#jumbo-one .image{
+
+#jumbo-one .container.centrali img{
     width: 60%;
-    background-image: url('img/item1.svg');
     background-position: center;
     background-size: cover;
-    height: 100%;
-    border: 2px solid red;
+    float: left;
+}
+
+#jumbo-one h2{
+    padding-top: 40px;
+    font-size: 50px;
+    margin-left: 20px;
+}
+
+#jumbo-one p{
+    margin-top: 20px;
 }
 
 
