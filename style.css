@@ -273,6 +273,10 @@ footer .box{
     color: #fff;
 }
 
+.box .contenuto .fas{
+    color:#fff;
+}
+
 .box .contenuto ul li{
     list-style-type: none;
     margin-top: 20px;
