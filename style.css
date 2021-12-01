@@ -235,5 +235,75 @@ header nav a{
     text-align: center;
 
 }
-
 /* section 4 */
+
+/* footer */
+footer{
+    margin-bottom: 0;
+    padding-bottom: 0;
+    background-color: #232F3E;
+    min-width: 1000px;
+    position: relative;
+    height: 500px;
+}
+
+footer .box{
+    display: table-cell;
+    padding: 30px 0;
+    width: 500px;
+}
+
+.box .contenuto h3{
+    font-size: 40px;
+    color: #2174f1;
+    margin-bottom: 20px;
+    max-width: 400px;
+}
+
+.box .contenuto span a{
+    text-decoration: none;
+    color: #fff;
+}
+
+.box .contenuto ul li{
+    list-style-type: none;
+    margin-top: 20px;
+    display: inline;
+    padding: 0 10px;
+}
+
+.box ul{
+    margin-top: 20px;
+}
+
+.box.link{
+    width: 200px;
+}
+
+.box.link .contenuto ul li{
+    margin: 0 10px;
+    list-style-type: none;
+    display: inline;
+    margin-top: 20px;
+}
+
+.box ul li a{
+    text-decoration: none;
+    color: #fff;
+}
+
+/* lista link */
+.box h4{
+    color: #2174f1;
+    font-size: 18px
+}
+
+.box ul li{
+    list-style-type: none;
+    margin-top: 20px;
+}
+
+/* lista link */
+
+
+/* footer */
