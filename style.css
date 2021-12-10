@@ -18,6 +18,11 @@ html{
 }
 /* debug */
 
+/* wawe */
+svg{
+    margin: -4px;
+}
+/* wawe */
 
 .container{
     width: 80%;
@@ -205,9 +210,6 @@ header nav a{
 /* section 4 */
 #jumbo-four {
     height: 1000px;
-}
-
-#jumbo-four{
     background-color: #f0f0f0;
 }
 
@@ -271,6 +273,11 @@ footer .box{
 .box .contenuto span a{
     text-decoration: none;
     color: #fff;
+}
+
+.box .contenuto span img{
+    height: 15px;
+    padding: 0 10px;
 }
 
 .box .contenuto .fas{
